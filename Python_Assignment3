@@ -1,0 +1,100 @@
+1. Advantages of having functions in a program
+
+ans: * Dont have the necessity to repeat the same block of code multiple times
+     * Chances of the errors occurence will be less when a task is accomplished using a function
+     * Provides a clear representation to the reader
+     
+------------------------------------------------------------------------------------------------------------------------------     
+     
+2. When does the code in a function run? when its specified or when its called?
+
+ans: The code inside a function runs when its called/invoked, not when defined/specified.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+3. Which statement creates a function?
+hich
+ans: Keyword 'def' is used in creation of a function in python.
+
+     syntax: def func_name():
+                 ***********
+                 code block
+                 ***********
+------------------------------------------------------------------------------------------------------------------------------   
+   
+4. Difference between a function and function call
+
+ans:A function is a block of code which is defined to perform a specific task. whereas a function call is made to achieve the task using the defined function.
+
+eg: def add(x,y):
+        return x+y
+        
+the above code is an example of a function
+
+add(4,5) is an example of the function call.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+5. How many global scopes and local scopes are available in a python program?
+
+ans: * A python programs has only one global scope will be running until the program is terminated with all the names inside the        program are incinerated.
+
+     * There are four local scopes in a python progra namely, built-in, local, global and enclosing
+------------------------------------------------------------------------------------------------------------------------------   
+6. What happens to the variable in the local scope when the function call returns?
+
+ans: Once the execution comes out of the scope of the variable, the local variable will be destroyed.
+------------------------------------------------------------------------------------------------------------------------
+7. What is the concept of return value? is it possible to return value in an expression?
+
+ans: return is a keyword used inside a function to return a result to the function caller. The return value could be in a expression as well
+
+eg: def add(x,y):
+        return x+y
+        
+In the above example, return value is not a single value its an expression of x and y
+
+------------------------------------------------------------------------------------------------------------------------------
+8. If a function does not have a return statement, what is the return value of a call to that function?
+
+ans: No value will be returned by the function when its called if the function definition doesnt have a return statement.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+9. How do you make a function variable refer to the global variable?
+
+ans: use the 'global' keyword to instruct the function to refer the global variable.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+10. What is the data type of None?
+
+ans: NoneType
+
+------------------------------------------------------------------------------------------------------------------------------
+
+11. What does the sentence import areallyourpetsnamederic do?
+
+ans: returns an error as follows,
+
+     ModuleNotFoundError: No module named 'areallyourpetsnamederic'
+
+------------------------------------------------------------------------------------------------------------------------------
+
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+
+ans: Once the 'spam' module is imported, we can say that the 'bacon()' method can used from 'spam' module using the code 'spam.bacon().
+
+------------------------------------------------------------------------------------------------------------------------------
+
+13. What can you do to save a programme from crashing if it encounters an error?
+
+ans: the user can compose a code to handle this scenario by error handling.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+
+ans: the 'try' clause is used to look for the error the enclosed block of code. whereas, the 'except' helps us to handle the triggered error.
+
+------------------------------------END OF THE PAGE -------------------------------------------------------------------------
